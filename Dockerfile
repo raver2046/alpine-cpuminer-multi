@@ -1,4 +1,4 @@
-FROM  alpine:latest
+FROM  arm64v8/alpine
 RUN   adduser -S -D -H -h /cpuminer-multi miner
 RUN   apk --no-cache upgrade && \
       apk --no-cache add \
